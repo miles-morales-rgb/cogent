@@ -1,122 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Training | Cogent E-Service</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tata Play Fiber – Training Handbook</title>
 
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-header {
-  background: #0b3c5d;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+    /* NAVBAR */
+    nav {
+      display: flex;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
 
-nav {
-  display: flex;
-  background: #ffffff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
+    nav a {
+      flex: 1;
+      padding: 14px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
 
-nav a {
-  flex: 1;
-  padding: 14px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: #333;
-}
+    nav a:hover {
+      background: #eaf4ff;
+    }
 
-nav a:hover {
-  background: #eaf4ff;
-}
+    nav a.active {
+      background: #1d4ed8;
+      color: #ffffff;
+    }
 
-nav a.active {
-  background: #1d4ed8;
-  color: white;
-}
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 15px;
+    }
 
-.container {
-  padding: 20px;
-}
+    h1 {
+      text-align: center;
+      color: #0b3c5d;
+      margin-bottom: 20px;
+    }
 
-.card {
-  background: white;
-  padding: 18px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    .card {
+      background: #ffffff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
 
-footer {
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-  color: #666;
-}
+    .question {
+      font-weight: bold;
+      color: #1d3557;
+      margin-bottom: 5px;
+    }
 
-@media(max-width:600px) {
-  nav {
-    flex-direction: column;
-  }
-}
-</style>
+    .answer {
+      color: #333;
+    }
+
+    ul {
+      margin: 8px 0 8px 20px;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    .note {
+      background: #eaf4ff;
+      padding: 10px;
+      border-left: 4px solid #1d4ed8;
+      margin-top: 8px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      .card {
+        padding: 12px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Training Section</h1>
-  <p>Customer Service Basics</p>
-</header>
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="training.html" class="active">Training</a>
+    <a href="training2.html">Training 2</a>
+  </nav>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="training.html" class="active">Training</a>
-  <a href="training2.html">Training2</a>
-</nav>
+  <div class="container">
+    <h1>Tata Play Fiber – Customer Service Training</h1>
 
-<div class="container">
+    <div class="card">
+      <div class="question">1️⃣ What is Tata Play Fiber?</div>
+      <div class="answer">
+        Tata Play Fiber is a high-speed broadband internet service provided by Tata Group in India.
+        It uses fiber-optic cables (FTTH) to give fast, stable internet for homes and offices.
+      </div>
+    </div>
 
-  <div class="card">
-    <h3>What is Customer Service?</h3>
-    <p>
-      Customer service means helping customers by understanding their issue,
-      following process, and providing correct solutions politely.
-    </p>
+    <div class="card">
+      <div class="question">2️⃣ What does FTTH mean?</div>
+      <div class="answer">
+        FTTH means Fiber To The Home.
+        <ul>
+          <li>Higher speed</li>
+          <li>Better stability</li>
+          <li>Less internet drop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">3️⃣ What is Internet?</div>
+      <div class="answer">
+        Internet is a network that allows devices to:
+        <ul>
+          <li>Browse websites</li>
+          <li>Watch videos</li>
+          <li>Use apps like YouTube, WhatsApp, Netflix</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">4️⃣ What equipment is installed at customer’s home?</div>
+      <div class="answer">
+        <ul>
+          <li>Fiber cable</li>
+          <li>ONT / Modem (converts fiber signal to internet)</li>
+          <li>Wi-Fi Router (shares internet wirelessly)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">5️⃣ Difference between Wi-Fi and Internet?</div>
+      <div class="answer">
+        <strong>Internet:</strong> Service from Tata Play Fiber<br>
+        <strong>Wi-Fi:</strong> Wireless signal from router
+        <div class="note">Internet can work even if Wi-Fi has issues.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">6️⃣ Common customer complaints?</div>
+      <div class="answer">
+        <ul>
+          <li>Internet not working</li>
+          <li>Slow internet speed</li>
+          <li>Wi-Fi connected but no internet</li>
+          <li>Red / LOS light blinking</li>
+          <li>Plan expired</li>
+          <li>Payment done but service inactive</li>
+          <li>Relocation request</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">7️⃣ What does “Internet not working” usually mean?</div>
+      <div class="answer">
+        <ul>
+          <li>Fiber cut</li>
+          <li>Power issue</li>
+          <li>Modem/router switched off</li>
+          <li>Area outage</li>
+          <li>Plan expired</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">8️⃣ What is slow internet?</div>
+      <div class="answer">
+        Internet works but speed is low due to:
+        <ul>
+          <li>Too many connected devices</li>
+          <li>Wi-Fi distance</li>
+          <li>Background downloads</li>
+          <li>Router issue</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">9️⃣ What is LOS / Red light?</div>
+      <div class="answer">
+        LOS (Loss of Signal) red light means fiber signal problem.
+        Usually requires technician visit.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">🔟 What is ETA?</div>
+      <div class="answer">
+        ETA = Estimated Time of Arrival / Resolution<br>
+        Time given to customer for issue resolution.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣1️⃣ What is TAT?</div>
+      <div class="answer">
+        TAT = Turn Around Time<br>
+        Maximum allowed time to close a complaint.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣2️⃣ What is a complaint / ticket?</div>
+      <div class="answer">
+        A ticket is an official record of the customer’s problem created for tracking and resolution.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣3️⃣ What is escalation?</div>
+      <div class="answer">
+        When an issue is not solved within TAT, it is moved to a higher support level.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣4️⃣ What is relocation?</div>
+      <div class="answer">
+        Shifting the internet connection from one address to another.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣5️⃣ What is plan expiry?</div>
+      <div class="answer">
+        When customer validity ends and internet stops until recharge.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣6️⃣ Outbound vs Inbound vs Chat?</div>
+      <div class="answer">
+        <ul>
+          <li><strong>Inbound:</strong> Customer calls you</li>
+          <li><strong>Outbound:</strong> You call customer</li>
+          <li><strong>Chat:</strong> Customer messages, you reply by typing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="question">1️⃣7️⃣ Customer service’s main role?</div>
+      <div class="answer">
+        <ul>
+          <li>Understand customer problem</li>
+          <li>Follow process</li>
+          <li>Provide correct solution</li>
+          <li>Keep customer calm and satisfied</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      © Tata Play Fiber Training Notes | Practice Ready
+    </footer>
+
   </div>
-
-  <div class="card">
-    <h3>Main Responsibilities</h3>
-    <ul>
-      <li>Handle calls or chats</li>
-      <li>Identify customer problem</li>
-      <li>Create tickets if required</li>
-      <li>Follow ETA & TAT</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Support Channels</h3>
-    <ul>
-      <li>Inbound Calls</li>
-      <li>Outbound Calls</li>
-      <li>Chat Support</li>
-    </ul>
-  </div>
-
-</div>
-
-<footer>
-  © Cogent E-Service | Training Helper
-</footer>
 
 </body>
-</html>
+        </html>
