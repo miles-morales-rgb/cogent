@@ -41,6 +41,30 @@ section{
   border-radius:12px;
   box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
+nav {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  flex: 1;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a:hover {
+  background: #eaf4ff;
+}
+
+nav a.active {
+  background: #1d4ed8;
+  color: white;
+}
+  
 h2{
   color:var(--primary);
   margin-bottom:10px;
@@ -95,6 +119,12 @@ footer{
 
 <body>
 
+<nav>
+  <a href="index.html" class="active">Home</a>
+  <a href="training.html">Training</a>
+  <a href="training.html">Training2</a>
+</nav>  
+  
 <header>
   <h1>Tata Play Fiber – Chat Process Guide</h1>
   <p>Cogent E-Services | CSA | Complete Training Handbook</p>
